@@ -1,5 +1,5 @@
 <?php
-include_once '../../includes/basicinfo.php';
+include_once '../../includes/getBasicInfo.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +11,7 @@ include_once '../../includes/basicinfo.php';
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="nav-bar">
@@ -25,10 +26,10 @@ include_once '../../includes/basicinfo.php';
                             <a class="nav-link" href="../../index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../../company/companyList.php">Company Database</a>
+                            <a class="nav-link" href="../../company/companyList.html">Company Database</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
+                    <form action="" class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>
@@ -39,21 +40,23 @@ include_once '../../includes/basicinfo.php';
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Basic Information <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="basicinfo.php">Basic Information <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Identification Number</a>
+                            <a class="nav-link" href="idnumber.php">Identification Number</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Employment Record</a>
+                            <a class="nav-link" href="emprecord.php">Employment Record</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Other Information</a>
+                            <a class="nav-link" href="otherinfo.php">Other Information</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Requirements</a>
+                            <a class="nav-link" href="requirements.php">Requirements</a>
                         </li>
                     </ul>
+                    <a href="../../table-change/edit.php"><button class="btn btn-primary my-2" type="submit">Edit</button></a>
+                    <a href="../../table-change/insert.php"><button class="btn btn-primary my-2 ml-3" type="submit">Insert</button></a>     
                 </div>
             </nav>
         </div>

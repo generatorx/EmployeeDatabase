@@ -10,7 +10,7 @@
                     <a class="nav-link" href="#">Home <span class=""></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="company/companyList.php">Company Database</a>
+                    <a class="nav-link" href="company/companyList.html">Company Database</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
