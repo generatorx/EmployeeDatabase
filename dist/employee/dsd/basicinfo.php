@@ -62,6 +62,7 @@ include_once '../../includes/getBasicInfo.php';
         </div>
         <div class="table my-3 px-5">
             <h2 class="pb-3" style="text-align: center;">Basic Information</h2>
+
             <table class="table table-hover border border-primary">
                 <thead>
                     <tr>
@@ -73,13 +74,11 @@ include_once '../../includes/getBasicInfo.php';
                         <th scope="col">Status</th>
                         <th scope="col">Contact Number</th>
                     </tr>
-                </thead>
-                <?php
-                echo $output;
-                ?>
+            </thead>
+                <?php echo $output; ?>
             </table>
         </div>
     </div>
+<script type="text/javascript" src="../../js/script.js"></script>
 </body>
-
 </html>

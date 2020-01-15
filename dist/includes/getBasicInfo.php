@@ -8,9 +8,9 @@ $output = '';
 
  if ($resultCheck > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
-        $output .= "<tbody>";
+        $output .= "<tbody >";
         $output .= "<tr>";
-        $output .= "<th scope='row'>" . $row['ID Number'] . "</th>";
+        $output .= "<th  scope='row' class='idNum'>" . $row['ID Number'] . "</th>";
         $output .= "<td>" . $row['Surname'] . "</td>";
         $output .= "<td>" . $row['Given Name'] . "</td>";
         $output .= "<td>" . $row['Middle Name'] . "</td>";
