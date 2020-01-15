@@ -1,5 +1,5 @@
 <?php
-include_once '../../includes/getIdNumber.php';
+include_once '../../includes/searchInfo.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,21 +19,21 @@ include_once '../../includes/getIdNumber.php';
         ?>
         
         <div class="table my-3 px-5">
-            <h2 class="pb-3" style="text-align: center;">Identification Number</h2>
+            <h2 class="pb-3" style="text-align: center;">Basic Information</h2>
             <table class="table table-hover border border-primary">
                 <thead>
                     <tr>
-                        <th scope="col">SSS</th>
-                        <th scope="col">PHIC</th>
-                        <th scope="col">HMID</th>
-                        <th scope="col">TIN</th>
-                        <th scope="col">INTR</th>
-                        <th scope="col">ACCOUNT NO. BPI</th>
-                        <th scope="col">ACCOUNT NO. UB</th>
+                        <th scope="col">ID Number</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Given Name</th>
+                        <th scope="col">Middle Name</th>
+                        <th scope="col">Birthdate</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Contact Number</th>
                     </tr>
                 </thead>
                 <?php
-                echo $output;
+                echo $search;
                 ?>  
             </table>
         </div>

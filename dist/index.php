@@ -8,11 +8,20 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>Document</title>
 </head>
+<<<<<<< HEAD
 <body>
     <div class="wrapper">
        <?php
             include_once 'reuse/nav.php';
        ?>
+=======
+
+<body>
+    <div class="wrapper">
+        <?php
+        include_once 'reuse/nav.php';
+        ?>  
+>>>>>>> View Tables Done
     </div>
 </body>
 </html>
