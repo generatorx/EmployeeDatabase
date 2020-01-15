@@ -14,7 +14,6 @@ include_once '../../includes/getBasicInfo.php';
 
 <body>
     <div class="wrapper">
-<<<<<<< HEAD
         <div class="nav-bar">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <a class="navbar-brand" href="#">SAMPLE APPLICATION</a>
@@ -61,12 +60,6 @@ include_once '../../includes/getBasicInfo.php';
                 </div>
             </nav>
         </div>
-=======
-        <?php
-            include_once '../reuse/nav.php';
-        ?>
-        
->>>>>>> View Tables Done
         <div class="table my-3 px-5">
             <h2 class="pb-3" style="text-align: center;">Basic Information</h2>
             <table class="table table-hover border border-primary">
@@ -83,11 +76,7 @@ include_once '../../includes/getBasicInfo.php';
                 </thead>
                 <?php
                 echo $output;
-<<<<<<< HEAD
                 ?>
-=======
-                ?>  
->>>>>>> View Tables Done
             </table>
         </div>
     </div>
