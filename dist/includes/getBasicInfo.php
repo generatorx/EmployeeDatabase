@@ -2,10 +2,6 @@
     include_once 'dbh.php'; //toaccessphpfile(dbh)
 
 $sql = "SELECT * FROM dsd_employee;";
-<<<<<<< HEAD
-=======
-
->>>>>>> View Tables Done
 $result = mysqli_query($connect, $sql);
 $resultCheck = mysqli_num_rows($result);
 $output = '';
