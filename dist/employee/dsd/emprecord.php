@@ -23,12 +23,19 @@ include_once '../../includes/getID.php';
                 </div>
                 <div class="col-9">
                     <div class="card border-light mb-3" style="width:100%;">
-                        <div class="card-header">PROFILE
-                            <span><img src="../../image/<?php echo $status?>.png" alt="active" style="width:1.5%; height:100%;"></span>
+                        <div class="card-header row">
+                            <div class="col-11">PROFILE
+                                <span><img src="../../image/<?php echo $status ?>.png" alt="active" style="width:2.5%; height:72%;"></span>
+                            </div>
+                            <div class="col-1">
+                                <form action="" method="POST">
+                                    <input type="submit" name="edit" value="EDIT"/>
+                                </form>
+                            </div>
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title"><?php echo $fullname?></h4>
-                            <p class="card-text"><?php echo $position?></p>
+                            <h4 class="card-title"><?php echo $fullname ?></h4>
+                            <p class="card-text"><?php echo $position ?></p>
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Light card title</h4>
@@ -39,6 +46,6 @@ include_once '../../includes/getID.php';
             </div>
         </div>
     </div>
+<script type="text/javascript" src="../../js/function.js"></script>
 </body>
-
 </html>
