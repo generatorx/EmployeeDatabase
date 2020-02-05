@@ -21,7 +21,7 @@ include_once '../../includes/getEmpRecord.php'
         <div class="container-fluid border border-light">
             <div class="row">
                 <div class="col-3 border border-secondary">
-                    <img style="height: 100%; width: 100%; display: block; margin" src="../../image/avatar.png" alt="Card image">
+                    <img style="height: 100%; width: 100%; display: block;" src="../../image/avatar.png" alt="Card image">
                 </div>
                 <div class="col-9 border border-secondary">
                     <div class="card border-light mb-3" style="width:100%;">
