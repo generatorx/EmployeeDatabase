@@ -20,6 +20,7 @@ $hmid = '';
 $tin = '';
 $intr = '';
 $accountnobpi = '';
+$accountnoub = '';
 $datehired = '';
 $outlet = '';
 $employmentstatus = '';
@@ -34,6 +35,10 @@ $drugtest = '';
 $idissued = '';
 $placeofbirth = '';
 $emailaddress = '';
+$birthdate = '';
+$birthyear = '';
+$age = '';
+$maritalstatus = '';
 
 
 $idnum .= $output['ID_Number'];
@@ -48,6 +53,7 @@ $hmid .= $output['HMID'];
 $tin .= $output['TIN'];
 $intr .= $output['INTR'];
 $accountnobpi .= $output['ACCOUNT NO. BPI'];
+$accountnoub .= $output['ACCOUNT NO. UB'];
 $datehired .= $output['Date Hired'];
 $outlet .= $output['Outlet'];
 $employmentstatus .= $output['Employment Status'];
@@ -62,4 +68,9 @@ $drugtest .= $output['DRUG TEST'];
 $idissued .= $output['ID ISSUED'];
 $placeofbirth .= $output['PLACE OF BIRTH'];
 $emailaddress .= $output['EMAIL ADDRESS'];
+$birthdate .= $output['Birthdate'];
+$birthyear = substr($birthdate, 0, 4);
+$age = date("Y") - $birthyear;
+$maritalstatus .= $output['Status'];
+
 ?>
